@@ -1,0 +1,37 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data/cache
+# Ignore all data files but keep a placeholder so the folder is tracked
+data/*
+!data/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.zip
+*.gz
+*.bz2
+*.xz
+
+# Plots/outputs
+*.png
+*.jpg
+*.jpeg
+*.svg
+outputs/
